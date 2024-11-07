@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans",sans-serif;
+}
+
+:root{
+    font-size: 62.5%;
+    --white: #FFF;
+    --fire-engine-red:#C1292E;
+    --cream:#F3F9D2;
+    /*--battleship-grey:#626364;*/
+    --battleship-grey:#3c3e3f;
+    --eerie-black:#191716;
+}

@@ -1,9 +1,68 @@
+@import "./css/global.css";
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-div {
+body {
+    height: 200svh;
+    background: url("./images/main-bg.jpg");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    background: var(--battleship-grey);
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 5rem;
+    font-size: 1.4rem;
+}
+
+header a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+header img {
+    width: 8rem;
+    margin-right: 5rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: calc(100svh - 30rem);
+    color: var(--white);
+    justify-content: top;
+    align-items: center;
+    border: 1px solid red;
+}
+main h1 {
+    margin-top: 10rem;
+    font-size: 100px;
+    text-transform: uppercase;
+    letter-spacing: 2rem;
+    margin-bottom: 2.4rem;
+}
+
+main p {
+    text-align: center;
+    max-width: 48rem;
+}
+
+.paginas {
+    background-image: linear-gradient(to-right --battleship-grey);
+    height: 60rem;
     border: 1px solid red;
 }
