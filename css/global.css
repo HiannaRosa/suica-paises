@@ -5,12 +5,16 @@
     font-family: "Fira Sans",sans-serif;
 }
 
+body {
+    height: 100svh;
+}
 :root{
     font-size: 62.5%;
     --white: #FFF;
-    --fire-engine-red:#C1292E;
-    --cream:#F3F9D2;
-    /*--battleship-grey:#626364;*/
-    --battleship-grey:#3c3e3f;
-    --eerie-black:#191716;
+    --smoky-black:#0C0200;
+    --licore:#241816;
+    --van-dyke: #463937;
+    --blue: #2760B9;
+    --lavender-blush:#F7EDF0;
+    --orange:#F88325;
 }
