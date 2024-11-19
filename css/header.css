@@ -6,7 +6,6 @@ header {
     align-items: center;
     height: 10rem;
     background: var(--licore);
-    border: 1px solid red;
 }
 
 header ul {

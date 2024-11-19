@@ -1,0 +1,75 @@
+@import url(./global.css);
+@import url(./header.css);
+
+main {
+    height: calc(100svh - 10rem);
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(../images/culturaBG.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    height: 40%;
+}
+
+.titulo h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7rem;
+    color: var(--lavender-blush);
+}
+
+.titulo p {
+    color: var(--lavender-blush);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(155deg, var(--licore) 50% , var(--smoky-black) 50%);
+    gap: 3rem;
+    padding: 2rem;
+    color: var(--white);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(155deg, var(--smoky-black) 50% , var(--blue) 50%);
+    border-radius: 3rem;
+    padding: 3rem;
+    gap: 2rem;
+}
+
+.text-box, .text-box-right {
+    display: flex;
+    align-items: center;
+    max-width: 75rem;
+    padding: 1rem;
+    gap: 1.4rem;
+    border: solid 1px var(--blue);
+    background: var(--licore);
+    color: var(--lavender-blush);
+    box-shadow: rgba(0, 0, 0, 0.15) 4px 4px 0px;
+}
+
+.text-box img, .text-box-right img {
+    width: 14rem;
+}
+
+.text-box p {
+    text-align: left;
+    font-size: 1.4rem;
+}
+
+.text-box-right p {
+    text-align: right;
+    font-size: 1.4rem;
+}

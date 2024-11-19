@@ -20,11 +20,13 @@ main {
     align-items: center;
     height: 50%;
     width: 100%;
-    background: url("./images/main-bg.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/main-bg.jpg");
+    background-repeat: no-repeat;
     background-position: bottom;
 }
 
 .titulo h1 {
+    color: var(--lavender-blush);
     text-align: center;
     margin-bottom: 2.4rem;
     font-size: 100px;
@@ -33,11 +35,14 @@ main {
 }
 
 .titulo h1 span {
+    color: var(--lavender-blush);
     letter-spacing: 0;
 }
 
 
 .titulo p {
+    color: var(--lavender-blush);
+    font-size: 1.4rem;
     max-width: 48rem;
     margin-inline: auto;
     text-align: center;
@@ -53,9 +58,15 @@ main {
     width: 100%;
 }
 
+.paginas h2 {
+    text-align: left;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+}
+
 .pagina-botoes {
     display: flex;
-    gap: 3rem;
+    gap: 10rem;
 }
 
 .pagina-botoes a {
@@ -74,20 +85,23 @@ main {
     font-size: 30px;
     transition: .2s;
 }
-.pagina-botoes h2 {
+.pagina-botoes span {
     background-size: 1rem;
     padding: 1rem;
+    font-size: 4rem;
+    font-weight: 600;
 }
+
 .historia {
     background: url(./images/suica4.jpg);
 } 
 .pontos {
-    background: url(./images/suica3.webp);
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(./images/suica3.webp);
 }
 .cultura {
-    background: url(./images/suica.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20)), url(./images/suica.jpg);
     background-position: bottom;
-} 
+}
 
 .pagina-botoes img {
     width: 100%;

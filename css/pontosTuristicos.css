@@ -1,0 +1,76 @@
+@import url(./global.css);
+@import url(./header.css);
+
+main {
+    height: calc(100svh - 10rem);
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(../images/pontos-turisticos.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 40%;
+}
+
+.titulo h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7rem;
+    color: var(--smoky-black);
+}
+
+.titulo p {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(155deg, var(--licore) 50% , var(--smoky-black) 50%);
+    gap: 3rem;
+    padding: 2rem;
+    color: var(--white);
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: var(--licore);
+    border: 1px solid var(--orange);
+    gap: 3rem;
+    width: 75rem;
+}
+
+.text-box h2 {
+    background: var(--smoky-black);
+    width: 100%;
+    line-height: 7rem;
+    color: var(--orange);
+    font-size: 2.5rem;
+    letter-spacing: 4px;
+}
+
+.text-box img {
+    width: 20rem;
+    border-radius: 50%;
+}
+
+.text-box p {
+    font-size: 2rem;
+    max-width: 50rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 3rem;
+}

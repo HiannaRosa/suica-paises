@@ -8,6 +8,7 @@
 body {
     height: 100svh;
 }
+
 :root{
     font-size: 62.5%;
     --white: #FFF;
@@ -16,5 +17,5 @@ body {
     --van-dyke: #463937;
     --blue: #2760B9;
     --lavender-blush:#F7EDF0;
-    --orange:#F88325;
+    --orange:#f88325;
 }
